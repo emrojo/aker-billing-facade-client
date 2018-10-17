@@ -1,16 +1,16 @@
 PATH
   remote: .
   specs:
-    aker-billing-facade-client (0.1.8)
+    billing_facade_client (0.1.8)
       activemodel
       faraday
 
 GEM
   remote: https://rubygems.org/
   specs:
-    activemodel (5.2.0)
-      activesupport (= 5.2.0)
-    activesupport (5.2.0)
+    activemodel (5.2.1)
+      activesupport (= 5.2.1)
+    activesupport (5.2.1)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (>= 0.7, < 2)
       minitest (~> 5.1)
@@ -21,10 +21,10 @@ GEM
     crack (0.4.3)
       safe_yaml (~> 1.0.0)
     diff-lcs (1.3)
-    faraday (0.15.2)
+    faraday (0.15.3)
       multipart-post (>= 1.2, < 3)
     hashdiff (0.3.7)
-    i18n (1.0.1)
+    i18n (1.1.0)
       concurrent-ruby (~> 1.0)
     minitest (5.11.3)
     multipart-post (2.0.0)
@@ -56,7 +56,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  aker-billing-facade-client!
+  billing_facade_client!
   bundler (~> 1.16)
   rake (~> 10.0)
   rspec (~> 3.0)
